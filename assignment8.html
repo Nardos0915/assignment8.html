@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        a:link,
+        a:visited {
+            background-color: green;
+            color: white;
+            padding: 20px 35px;
+            text-align: center;
+            text-decoration: none;
+
+        }
+
+        a:hover {
+            border:3px solid green;
+            background-color: white;
+
+
+            color: black;
+        }
+
+        ul {
+            background-color: yellow;
+
+        }
+
+        img {
+            position: absolute;
+            z-index: -1;
+            width: 100px;
+        }
+
+        li::marker {
+            color: brown
+        }
+
+        span {
+            border: 2px solid blue;
+           
+        }
+
+        .c1 {
+            background-color: yellow;
+            width: 150px;
+            height: 200px;
+            padding: 10px;
+
+        }
+
+        .c2 {
+            display: inline-block;
+            background-color: yellow;
+            width: 90px;
+            height: 100px;
+            padding: 10px;
+
+        }
+
+        .c3 {
+            display: block;
+            background-color: yellow;
+            width: 90px;
+            height: 100px;
+            padding: 5px;
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <a href="#">This is a link</a><br><br>
+    <ul id="u1" style="list-style-type: square;">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Coca Cola</li>
+    </ul>
+    <img src="./image 6.jpg" alt="no image">
+    <h1>This is a heading</h1>
+    <p>Because the image has z-index of -1,it will be placed behind the text</p><br><br>
+    <h2>The display Property</h2>
+    <h3>display: inline</h3>
+    <p>this is text is text this is <span class="c1">hello</span> <span class="c1">there</span> this is text this is
+        text this is text </p>
+
+    <h3>display: inline-block</h3>
+    <p>this is text is text this is <span class="c2">hello</span> <span class="c2">there</span> this is text this is
+        text this is text </p>
+
+    <h3>display:block</h3>
+    <p>this is text is text this is <span class="c3">hello</span><span class="c3">there</span> this is text this is text
+        this is text </p>
+
+
+
+
+
+
+</body>
+
+</html>
